@@ -75,7 +75,7 @@ router.post('seller/page',userAuth, async (req, res) => {
         }
        
        
-        var sellerItem = new itemModelModel()
+        var sellerItem = new itemModel()
 
         sellerItem.category=category,
         sellerItem.quantity=quantity,
