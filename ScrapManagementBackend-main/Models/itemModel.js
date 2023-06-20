@@ -25,4 +25,4 @@ var itemSchema = mongoose.Schema({
     timestamps: { createdAt: 'create_date', updatedAt: 'update_date' }
 });
 
-module.exports = mongoose.model('itemModel', itemSchemaSchema);
+module.exports = mongoose.model('itemModel', itemSchema);
